@@ -5555,7 +5555,7 @@ __metadata:
     graphql: 16.1.0
     jest: 27.3.1
     proptypes: 1.1.0
-    react-helmet-async: 1.1.2
+    react-helmet-async: 1.2.2
     react-hot-toast: 2.1.1
     typescript: 4.5.2
   peerDependencies:
@@ -23854,7 +23854,23 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-helmet-async@npm:1.1.2, react-helmet-async@npm:^1.0.7":
+"react-helmet-async@npm:1.2.2":
+  version: 1.2.2
+  resolution: "react-helmet-async@npm:1.2.2"
+  dependencies:
+    "@babel/runtime": ^7.12.5
+    invariant: ^2.2.4
+    prop-types: ^15.7.2
+    react-fast-compare: ^3.2.0
+    shallowequal: ^1.1.0
+  peerDependencies:
+    react: ^16.6.0 || ^17.0.0
+    react-dom: ^16.6.0 || ^17.0.0
+  checksum: 29cfa2f521b12d2f899a4f09dcba3106168f676a92ac2c9fc1a3acef19452896961e9b30b432195d9c7a59589fcbcef32afc136642affe82d014b8f31b442c1e
+  languageName: node
+  linkType: hard
+
+"react-helmet-async@npm:^1.0.7":
   version: 1.1.2
   resolution: "react-helmet-async@npm:1.1.2"
   dependencies:
